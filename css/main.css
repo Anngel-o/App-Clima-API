@@ -1,4 +1,51 @@
 * {
-    font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #243B4A;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    background-color: #805E73;
+    padding: 10px;
+    display: flex;
+    border-radius: 4rem;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 25px 25px 15px;
+}
+
+#container > #block{
+    padding: 40px;
+    align-items: center;
+}
+
+#block {
+    color: #243B4A;
+    font-size: 2rem;
+}
+
+#location {
+    font-size: 50px;
+}
+
+#block:first-child {
+    background-color: #243B4A;
+    color: #805E73;
+    border-radius: 4rem;
+}
+
+#information-container{
+    display: flex;
+    margin-left: 1px;
+}
+
+.info{
+    margin-block: 10px;
+    text-align: center;
 }

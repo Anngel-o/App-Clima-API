@@ -11,12 +11,25 @@
 </head>
 <body onload="onLoad()">
     <div id="container">
-        <div id="location"></div>
-        <div id="description"></div>
-        <div id="humidity"></div>
-        <div id="pressure"></div>
-        <div id="temperature"></div>
-        <div id="date"></div>
+        <div id="block" class="info">
+            <strong><div id="location"></div></strong> 
+            <div id="date"></div>
+            <div id="description"></div>
+        </div>
+        <div id="block">
+            <div class="information-container">
+                <strong>Temperature</strong>
+                <div id="temperature"></div>
+            </div>
+            <div class="information-container">
+                <strong>Humidity</strong>
+                <div id="humidity"></div>
+            </div>
+            <div class="information-container">
+                <strong>Pressure</strong>
+                <div id="pressure"></div>
+            </div>            
+        </div>
     </div>
     <script src="./js/main.js"></script>
 </body>
